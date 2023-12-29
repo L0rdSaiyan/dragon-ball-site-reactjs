@@ -6,6 +6,8 @@ function Carousel() {
         'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/pt_BR/dlc/switch-dlc/dragon-ball-fighterz-dlc/individual/dragon-ball-fighterz-gogeta-ssgss/image',
         'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/fr_CA/dlc/switch-dlc/dragon-ball-fighterz-dlc/individual/dragon-ball-fighterz-vegito-ssgss/image',
         'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/pt_BR/dlc/switch-dlc/dragon-ball-fighterz-dlc/individual/dragon-ball-fighterz-gogeta-ss4/image',
+        'https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/es_LA/dlc/switch-dlc/dragon-ball-fighterz-dlc/individual/dragon-ball-fighterz-goku-ultra-instinct/image',
+        'https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/pt_BR/dlc/switch-dlc/dragon-ball-fighterz-dlc/individual/dragon-ball-fighterz-goku/image'
         //Devido a dinamicidade que eu criei para esse componente, é possível adicionar quantas imagens você quiser.
     ];
 
