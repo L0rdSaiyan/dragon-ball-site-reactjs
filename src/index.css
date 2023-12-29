@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
   height: 100vh; /* Garante que o body ocupe toda a altura da janela */
+  scroll-behavior: smooth;
+
   background: rgb(251,170,63);
   background: radial-gradient(circle, rgba(251,170,63,1) 0%, rgba(235,37,37,1) 100%);
 }
