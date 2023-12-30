@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from '../styles/Header.module.css';
-import { useState } from 'react';
 
-function Header() {
+export default function Header() {
   return (
     <div className={styles.header_Container}>
       <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Dragon_Ball_Z_Logo_A.png" alt="Logo" />
@@ -24,4 +23,3 @@ function Header() {
   );
 }
 
-export default Header;

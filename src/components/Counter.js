@@ -1,11 +1,16 @@
 import React, { useState, useRef, useEffect } from "react";
 
-function Counter() {
+export default function Counter() {
   const [num, setNum] = useState(0);
   const [user, setUser] = useState({});
   const prevNumRef = useRef();
 
   // ... your useEffect hooks
+
+  useEffect(()=>{
+   num === 0 ? prevNumRef.current = -1 : prevNumRef.current = num 
+   console.log('executou')
+  },{})
 
   function increase() {
     prevNumRef.current = num; // Save the previous value
@@ -35,4 +40,3 @@ function Counter() {
   );
 }
 
-export default Counter;

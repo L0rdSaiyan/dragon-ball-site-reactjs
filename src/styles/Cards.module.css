@@ -46,3 +46,10 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+.Cards:hover
+{
+    transition: 200ms;
+    transform: scale(0.9);
+    cursor: pointer;
+}

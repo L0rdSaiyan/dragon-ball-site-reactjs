@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Carousel from './components/Carousel';
 import Counter from './components/Counter';
 import Cards from './components/Cards';
+import Footer from './components/Footer';
 function App() {
 
   const soma = (num1,num2) =>
@@ -35,6 +36,7 @@ function App() {
     description3={"Ultra Vegetto Blue"}
     >
     </Cards>
+    <Footer></Footer>
     </div>
   );
 }

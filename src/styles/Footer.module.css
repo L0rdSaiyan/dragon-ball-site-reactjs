@@ -1,0 +1,24 @@
+:root
+{
+   --color-sienna: sienna;
+   --color-font-a: black;
+   --color-active: #e0e0e0;
+
+}
+
+.FooterContainer
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--color-sienna);
+    width: 100%;
+    height: 3.em; 
+    box-shadow: 4px 4px 3px 1px;
+    overflow: hidden;
+    font-size: 10px;
+    margin-top: 10px;
+ 
+}

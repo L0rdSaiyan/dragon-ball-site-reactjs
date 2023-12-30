@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/Carousel.module.css';
 
-function Carousel() {
+export default function Carousel() {
     const arrImg = [
         'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/pt_BR/dlc/switch-dlc/dragon-ball-fighterz-dlc/individual/dragon-ball-fighterz-gogeta-ssgss/image',
         'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/fr_CA/dlc/switch-dlc/dragon-ball-fighterz-dlc/individual/dragon-ball-fighterz-vegito-ssgss/image',
@@ -50,4 +50,3 @@ function Carousel() {
     );
 }
 
-export default Carousel;

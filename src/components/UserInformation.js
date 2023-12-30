@@ -1,4 +1,4 @@
-const Informacoes = ({ nome, idade, profissao }) => {
+export default function UserInformation ({ nome, idade, profissao }){
     return (
       <div>
         <h3>Essas são suas informações: </h3>
@@ -9,4 +9,3 @@ const Informacoes = ({ nome, idade, profissao }) => {
     );
   };
   
-  export default Informacoes;
